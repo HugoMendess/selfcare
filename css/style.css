@@ -36,6 +36,7 @@ a{
 
 .header-nav ul a li i{
     color: #5CA720;
+    font-size: 1.3em;
 }
 
 .header-logo{
@@ -46,6 +47,7 @@ a{
 .header-logo h1{
     font-size: 1.61em;
     line-height: 2em;
+    margin: 0px 10px;
     
 }
 
@@ -53,7 +55,6 @@ a{
 
 .section-banner img{
     width: 100%;
-
 }
 
 /*Promoção*/
@@ -186,6 +187,7 @@ a{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-self: start;
     padding: 50px;
 }
 
@@ -195,11 +197,55 @@ a{
 }
 .footer-social ul, .footer-pagamentos ul{
     display: flex;
-    
+    flex-wrap: wrap;
+    align-items: center;
 }
 
+.master-li-meio p{
+    margin-top: -20px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+
+/* Responsivo */
+
+@media (max-width: 1205px){
+    .header, .section-promo, .section-product{
+        padding: 0px 50px;
+    }
+}
+
+@media(max-width: 750px){
+    .section-product .products-itens{
+        flex-direction: column;
+        margin: 30px auto;
+    }
+
+
+}
+@media (max-width: 775px){
+    .footer-bg{
+        text-align: center;
+        margin: 20px 0px;
+
+    }
+}
+
+@media(max-width: 1225px){
+    .footer-btn{
+        width: 397px;
+    }
+
+   
+
+    .footer-bg{
+        margin: 0 auto;
+    }
+}
 @media (max-width: 300px){
    .header{
-       padding: 0 40px;
+       margin: 0px 20px;
    }
+
+   
 }
