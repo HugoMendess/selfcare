@@ -60,3 +60,20 @@ Imagens estão disponíveis na pasta `./assets`<br>
 - Você também pode adicionar uma "issue" neste repositório mostrando seu resultado final!<br>
 
 Desafio criado por <a href="https://github.com/thaysagomes">Thaysa Gomes</a> :)
+
+# Resultado do Desafio 
+
+![Imagem do projeto final](https://github.com/HugoMendess/selfcare/blob/master/img/resultado-projeto.gif)
+
+## Começando
+##### Esse arquivo fará com que você tenha uma cópia deste projeto para fins de estudo e teste.
+
+## Pré-requisitos
+##### Para implementar o projeto, você precisa ter conhecimentos básicos em HTML5 e CSS3.
+
+## Construído com
+##### HTML5
+##### CSS3 
+
+## Autor
+##### Hugo Roberto Veras Mendes - Estudante de Engenharia da Computação na Universidade Estadual do Maranhão, UEMA.
